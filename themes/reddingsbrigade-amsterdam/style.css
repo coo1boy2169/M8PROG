@@ -1,0 +1,23 @@
+/*
+Theme Name: Reddingsbrigade Amsterdam
+Theme URI: https://reddingsbrigade.amsterdam
+Author: Jouw Naam
+Description: Een fris WordPress thema voor de reddingsbrigade in Amsterdam.
+Version: 1.0
+License: GNU General Public License v2 or later
+Text Domain: rbamsterdam
+*/
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #e30613; /* Rood zoals op IJRB */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
