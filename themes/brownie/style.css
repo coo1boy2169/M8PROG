@@ -6,3 +6,139 @@ Version: 1.0
 */
 
 /* Kopieer hier alle CSS-code uit het HTML bestand */
+
+/* Algemene stijl */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fffaf5;
+    color: #4b2e2e;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #4b2e2e;
+    padding: 20px 0;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+/* Bruine balk met social icons */
+.brown-bar {
+    background-color: #d2a679;
+    padding: 10px 0;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #4b2e2e;
+    border-radius: 50%;
+}
+
+/* Hero image */
+.hero {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Content section */
+.content-section {
+    padding: 60px 0;
+    background-color: #fffaf5;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #6b3e3e;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.feature-box {
+    background-color: #fff;
+    border: 1px solid #e0d4c3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.feature-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+/* Footer */
+footer {
+    background-color: #4b2e2e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+}
